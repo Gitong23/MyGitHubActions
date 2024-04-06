@@ -18,6 +18,9 @@ func main() {
 		log.Fatal(err)
 	}
 
+	password := "P@ssword"
+	log.Println(password)
+
 	h := handler.NewApplication(db)
 
 	e := echo.New()
